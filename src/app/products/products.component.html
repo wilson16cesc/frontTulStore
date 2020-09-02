@@ -1,0 +1,22 @@
+<section class="products">
+    <div *ngFor="let product of products | async"  class="products-card">
+    
+    <div class="card-cover">
+       <figure>
+            <img
+              src=""
+            />
+        </figure>
+    </div>
+    <h2 class="card-title">{{product.name}}</h2>
+    <p class="card-description">
+        {{product.sku}}
+    </p>
+    <p class="card-description">
+        {{product.description}}
+    </p>
+    <button (click)="addCart(product)" class="card-button">
+        Add to Card
+    </button>
+    </div>  
+</section>

@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -92,7 +92,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "frontTulStore"
+    }
+  },
+  "defaultProject": "frontTulStore",
+  "cli": {
+    "analytics": "1b1cfc45-1ed9-40da-9d58-0f23400c080a"
+  }
 }

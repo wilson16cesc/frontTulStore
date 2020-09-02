@@ -1,0 +1,48 @@
+.cart{
+    border: 1px solid cadetblue;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.cart-title{
+    text-align: center;
+    font-size: 1.5em;
+}
+.cart-products{
+    display: flex;
+}
+
+.cart-products h4{
+    font-size: 1em;
+    padding: 0px;
+    margin: 0 10px 0 0;
+}
+.cart-products span{
+    font-size: 1em;
+    padding: 0px;
+    margin: 0 10px 0 0;
+}
+
+.cart-button{
+    font-size: 1em;
+    margin: 0px 5px  10px 0;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 10em;
+    height: 2em;
+}
+.cart-pay{
+    align-self: center;
+    font-size: 1em;
+    margin: 0px 5px  10px 0;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 10em;
+    height: 2em;
+}

@@ -1,0 +1,17 @@
+<section class="cart">
+    <h3 class="cart-title">Cart TUL</h3>
+    <div *ngFor="let item of productsItem | async " class="cart-products">
+        <h4>{{item.name}}</h4>
+        <span>{{item.pivot.quantity}}</span>
+        <button (click)="edit(item)" class="cart-button">
+            Edit
+        </button>
+        <button (click)="delete(item)" class="cart-button">
+            Delete
+        </button>
+    </div>
+    <hr>
+    <button (click)="pay()" class="cart-pay">
+       Pay
+    </button>
+</section>
